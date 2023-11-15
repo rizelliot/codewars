@@ -9,13 +9,8 @@
 
 // My solution:
 
-function largestPairSum(numbers) {
-  let bigSum1 = Math.max(...numbers);
-
-  let numbersAlt = [...numbers];
-  numbersAlt.splice(numbers.indexOf(bigSum1), 1);
-
-  let bigSum2 = Math.max(...numbersAlt);
-
-  return bigSum1 + bigSum2;
+function largestPairSum(numbers)
+{
+  numbers.sort((a,b) => b - a);
+  return numbers[0] + numbers[1];
 }
