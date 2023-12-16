@@ -5,3 +5,9 @@
 function buildString(...template){
     return `I like ${template.join(', ')}!`;
   }
+
+let dupa = (num1, num2) => {
+  return num1 + num2
+}
+
+dupa(16, 26)
