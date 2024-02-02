@@ -1,0 +1,1 @@
+folder containing jsinfo exercises from the end of each chapter
